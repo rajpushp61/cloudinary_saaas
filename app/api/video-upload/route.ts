@@ -18,7 +18,7 @@ interface CloudinaryUploadResult{
     duration?:number,
     [key:string]:any
 }
-export async function post(request: NextRequest) {
+export async function POST(request: NextRequest) {
     try {
         const {userId} = await auth();
         if(!userId){
