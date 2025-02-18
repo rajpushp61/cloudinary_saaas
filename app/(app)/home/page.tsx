@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client"
 import React, {useState, useEffect, useCallback} from 'react'
 import axios from 'axios'
@@ -6,7 +7,7 @@ import { Video } from '@/types'
 function Home() {
     const [videos, setVideos] = useState<Video[]>([])
     const [loading, setLoading] = useState(true)
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    
     const [error, setError] = useState<string | null>(null)
 
     const fetchVideos = useCallback(async () => {
