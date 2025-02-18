@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+#Clerk
+#DaisyUi
+#Prisma
+#Cloudinary
+#Cloudinary-next
+
 ## Getting Started
 
 First, run the development server:
