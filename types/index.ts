@@ -4,7 +4,7 @@ export interface Video {
     description: string;
     publicId: string;
     originalSize: string;
-    compressedSize: number;
+    compressedSize: string;
     duration:number;
     createdAt: string;
     updatedAt: string;
